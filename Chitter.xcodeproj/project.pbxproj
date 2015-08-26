@@ -13,6 +13,22 @@
 		973E04661B8CC35300F810A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973E04651B8CC35300F810A9 /* Images.xcassets */; };
 		973E04691B8CC35300F810A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973E04671B8CC35300F810A9 /* LaunchScreen.xib */; };
 		973E04751B8CC35300F810A9 /* ChitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E04741B8CC35300F810A9 /* ChitterTests.swift */; };
+		973E047F1B8CC39000F810A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E047E1B8CC39000F810A9 /* AudioToolbox.framework */; };
+		973E04811B8CC39E00F810A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04801B8CC39E00F810A9 /* CFNetwork.framework */; };
+		973E04831B8CC3A300F810A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04821B8CC3A300F810A9 /* CoreGraphics.framework */; };
+		973E04851B8CC3AA00F810A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04841B8CC3AA00F810A9 /* CoreLocation.framework */; };
+		973E04871B8CC3B000F810A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04861B8CC3B000F810A9 /* QuartzCore.framework */; };
+		973E04891B8CC3B800F810A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04881B8CC3B800F810A9 /* Security.framework */; };
+		973E048B1B8CC3C000F810A9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E048A1B8CC3C000F810A9 /* StoreKit.framework */; };
+		973E048D1B8CC3D100F810A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E048C1B8CC3D100F810A9 /* SystemConfiguration.framework */; };
+		973E048F1B8CC3DE00F810A9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E048E1B8CC3DE00F810A9 /* libz.dylib */; };
+		973E04911B8CC3E600F810A9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04901B8CC3E600F810A9 /* libsqlite3.dylib */; };
+		973E04971B8CC44C00F810A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E04961B8CC44C00F810A9 /* Parse.framework */; };
+		973E04A01B8CC6D900F810A9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973E049F1B8CC6D900F810A9 /* Bolts.framework */; };
+		973E04A61B8D08D000F810A9 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E04A51B8D08D000F810A9 /* TimelineTableViewController.swift */; };
+		973E04A81B8D092700F810A9 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973E04A71B8D092700F810A9 /* ComposeViewController.swift */; };
+		977724B91B8DBE080070344F /* PeepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977724B81B8DBE080070344F /* PeepTableViewCell.swift */; };
+		97DC20BC1B8D0C2A00F0238C /* SweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DC20BB1B8D0C2A00F0238C /* SweetTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,23 @@
 		973E046E1B8CC35300F810A9 /* ChitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973E04731B8CC35300F810A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		973E04741B8CC35300F810A9 /* ChitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitterTests.swift; sourceTree = "<group>"; };
+		973E047E1B8CC39000F810A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		973E04801B8CC39E00F810A9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		973E04821B8CC3A300F810A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		973E04841B8CC3AA00F810A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		973E04861B8CC3B000F810A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		973E04881B8CC3B800F810A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		973E048A1B8CC3C000F810A9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		973E048C1B8CC3D100F810A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		973E048E1B8CC3DE00F810A9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		973E04901B8CC3E600F810A9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		973E04961B8CC44C00F810A9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		973E049E1B8CC62900F810A9 /* Chitter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chitter-Bridging-Header.h"; sourceTree = "<group>"; };
+		973E049F1B8CC6D900F810A9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		973E04A51B8D08D000F810A9 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		973E04A71B8D092700F810A9 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		977724B81B8DBE080070344F /* PeepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeepTableViewCell.swift; sourceTree = "<group>"; };
+		97DC20BB1B8D0C2A00F0238C /* SweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973E04911B8CC3E600F810A9 /* libsqlite3.dylib in Frameworks */,
+				973E048F1B8CC3DE00F810A9 /* libz.dylib in Frameworks */,
+				973E048D1B8CC3D100F810A9 /* SystemConfiguration.framework in Frameworks */,
+				973E04A01B8CC6D900F810A9 /* Bolts.framework in Frameworks */,
+				973E048B1B8CC3C000F810A9 /* StoreKit.framework in Frameworks */,
+				973E04971B8CC44C00F810A9 /* Parse.framework in Frameworks */,
+				973E04891B8CC3B800F810A9 /* Security.framework in Frameworks */,
+				973E04871B8CC3B000F810A9 /* QuartzCore.framework in Frameworks */,
+				973E04851B8CC3AA00F810A9 /* CoreLocation.framework in Frameworks */,
+				973E04831B8CC3A300F810A9 /* CoreGraphics.framework in Frameworks */,
+				973E04811B8CC39E00F810A9 /* CFNetwork.framework in Frameworks */,
+				973E047F1B8CC39000F810A9 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +104,7 @@
 		973E04501B8CC35300F810A9 = {
 			isa = PBXGroup;
 			children = (
+				973E04981B8CC45E00F810A9 /* Frameworks */,
 				973E045B1B8CC35300F810A9 /* Chitter */,
 				973E04711B8CC35300F810A9 /* ChitterTests */,
 				973E045A1B8CC35300F810A9 /* Products */,
@@ -78,10 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				973E045E1B8CC35300F810A9 /* AppDelegate.swift */,
+				973E04A51B8D08D000F810A9 /* TimelineTableViewController.swift */,
+				973E04A71B8D092700F810A9 /* ComposeViewController.swift */,
+				97DC20BB1B8D0C2A00F0238C /* SweetTableViewController.swift */,
+				977724B81B8DBE080070344F /* PeepTableViewCell.swift */,
 				973E04601B8CC35300F810A9 /* ViewController.swift */,
 				973E04621B8CC35300F810A9 /* Main.storyboard */,
 				973E04651B8CC35300F810A9 /* Images.xcassets */,
 				973E04671B8CC35300F810A9 /* LaunchScreen.xib */,
+				973E049E1B8CC62900F810A9 /* Chitter-Bridging-Header.h */,
 				973E045C1B8CC35300F810A9 /* Supporting Files */,
 			);
 			path = Chitter;
@@ -110,6 +161,25 @@
 				973E04731B8CC35300F810A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		973E04981B8CC45E00F810A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				973E049F1B8CC6D900F810A9 /* Bolts.framework */,
+				973E04961B8CC44C00F810A9 /* Parse.framework */,
+				973E04901B8CC3E600F810A9 /* libsqlite3.dylib */,
+				973E048E1B8CC3DE00F810A9 /* libz.dylib */,
+				973E048C1B8CC3D100F810A9 /* SystemConfiguration.framework */,
+				973E048A1B8CC3C000F810A9 /* StoreKit.framework */,
+				973E04881B8CC3B800F810A9 /* Security.framework */,
+				973E04861B8CC3B000F810A9 /* QuartzCore.framework */,
+				973E04841B8CC3AA00F810A9 /* CoreLocation.framework */,
+				973E04821B8CC3A300F810A9 /* CoreGraphics.framework */,
+				973E04801B8CC39E00F810A9 /* CFNetwork.framework */,
+				973E047E1B8CC39000F810A9 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				973E04611B8CC35300F810A9 /* ViewController.swift in Sources */,
+				973E04A61B8D08D000F810A9 /* TimelineTableViewController.swift in Sources */,
 				973E045F1B8CC35300F810A9 /* AppDelegate.swift in Sources */,
+				977724B91B8DBE080070344F /* PeepTableViewCell.swift in Sources */,
+				97DC20BC1B8D0C2A00F0238C /* SweetTableViewController.swift in Sources */,
+				973E04A81B8D092700F810A9 /* ComposeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +416,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Chitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chitter/Chitter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +433,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Chitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chitter/Chitter-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +498,7 @@
 				973E047A1B8CC35300F810A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		973E047B1B8CC35300F810A9 /* Build configuration list for PBXNativeTarget "ChitterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +507,7 @@
 				973E047D1B8CC35300F810A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
